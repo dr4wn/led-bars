@@ -1,0 +1,24 @@
+{
+    "name": "premium-platforming-led-bars",
+
+    "tree": {
+        "$className": "DataModel",
+
+        "Workspace": {
+            "$className": "Workspace",
+
+            "README": {
+                "$path": "./README.server.lua",
+        
+                "$properties": {
+                    "Disabled": true
+                },
+
+                "led-bars": {
+                    "$className": "Folder",
+					"$path": "./product/src"
+                }
+            }
+        }
+    }
+}
